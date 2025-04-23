@@ -434,7 +434,7 @@
              move ws-ano-9                         to ws-ano-x
              exec html
                 <TR>
-                    <TD nowrap><a href=anderson.exe?opcao=2&codigo=:arqcli-codigo title="Sequencia :f-qtde-reg">:arqcli-codigo</a>
+                    <TD nowrap><a href=ExemploCGI.exe?opcao=2&codigo=:arqcli-codigo title="Sequencia :f-qtde-reg">:arqcli-codigo</a>
                     <TD nowrap><label>:arqcli-nome
                     <TD nowrap><label>:ws-data-nascimento
                     <TD nowrap><label>:arqcli-sexo
@@ -459,7 +459,7 @@
              </CENTER>
              <BR> &nbsp;
              <BR>
-             <INPUT type=button name=Voltar      value=Voltar onclick='document.location.href="anderson.exe"'>
+             <INPUT type=button name=Voltar      value=Voltar onclick='document.location.href="ExemploCGI.exe"'>
              <INPUT type=hidden name=QtdeReg     value=:f-qtde-reg>
              <INPUT type=hidden name=StartPesqI  value=:f-start-ini>
              <INPUT type=hidden name=StartPesqF  value=:f-start-fim>
